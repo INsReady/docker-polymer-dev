@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[latest` (*Dockerfile*)](https://github.com/INsReady/docker-polymer-dev/blob/master/Dockerfile)
+-	[`latest` (*Dockerfile*)](https://github.com/INsReady/docker-polymer-dev/blob/master/Dockerfile)
 
 This image is updated via pull requests to [the `INsReady/docker-polymer-dev` GitHub repo](https://github.com/INsReady/docker-polymer-dev).
 
