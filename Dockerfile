@@ -1,5 +1,5 @@
-# Install Polymer CLI, https://www.polymer-project.org/1.0/start/first-element/intro
-FROM node:4
+# Install Polymer CLI, https://www.polymer-project.org/2.0/docs/tools/polymer-cli
+FROM node
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \

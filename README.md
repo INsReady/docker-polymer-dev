@@ -5,7 +5,7 @@
 This image is updated via pull requests to [the `INsReady/docker-polymer-dev` GitHub repo](https://github.com/INsReady/docker-polymer-dev).
 
 # What is image for?
-This is image contains a set of necessary tools for [Polymer Development](https://www.polymer-project.org/1.0/start/first-element/intro#). By using this image, you can quickly get all tools with right version to work with Polymer. Moreover, you don't have to install the tools on your computer anymore, which will make your computer cleaner.
+This is image contains a set of necessary tools for [Polymer Development](https://www.polymer-project.org/2.0/start/toolbox/set-up). By using this image, you can quickly get all tools with right version to work with Polymer. Moreover, you don't have to install the tools on your computer anymore, which will make your computer cleaner.
 
 # How to use this image?
 
@@ -16,7 +16,7 @@ $ docker run --rm --net="host" -p 8080:8080 -v "$PWD":/usr/src/app insready/poly
 ```
 # Tools included in this image:
 
-- LTS version (4.x) of Node.js
+- Node.js
 - git
 - Bower
 - Polymer CLI
