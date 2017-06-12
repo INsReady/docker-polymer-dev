@@ -6,7 +6,7 @@ RUN apt-get update \
 	   git \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g bower polymer-cli
+RUN npm install -g bower polymer-cli --unsafe-perm
 
 EXPOSE 8080
 
