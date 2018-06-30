@@ -1,4 +1,4 @@
-# Install Polymer CLI, https://www.polymer-project.org/2.0/docs/tools/polymer-cli
+# Install Polymer CLI, https://www.polymer-project.org/3.0/docs/tools/polymer-cli
 FROM node
 
 RUN apt-get update \
@@ -6,7 +6,7 @@ RUN apt-get update \
 	   git \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g bower polymer-cli --unsafe-perm
+RUN npm install -g polymer-cli --unsafe-perm
 
 EXPOSE 8080
 
